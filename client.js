@@ -18,6 +18,7 @@ function pr() {
 }
 
 ws.on('open', function open() {
+    ws.send(data["name"] + " viens de ce connecter");
     pr()
 });
 
